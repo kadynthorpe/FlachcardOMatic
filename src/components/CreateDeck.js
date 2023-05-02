@@ -72,6 +72,7 @@ function CreateDeck() {
           ></textarea>
         </div>
         <Link to='/' className='mr-2'>
+          </Link>
           <button
             type='button'
             className='btn btn-secondary'
@@ -79,7 +80,6 @@ function CreateDeck() {
           >
             Cancel
           </button>
-        </Link>
         <button type='submit' className='btn btn-primary'>
           Submit
         </button>
